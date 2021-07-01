@@ -10,6 +10,7 @@ fields:
 - type: file
   name: logo
   label: Logo
+  hidden: true
 - type: field_group_list
   name: navigation
   label: Navigation
@@ -17,8 +18,11 @@ fields:
   - type: text
     name: link
     label: link
+    hidden: true
   - type: text
     name: link_text
     label: Link text
+    hidden: true
   config:
     labelField: link_text
+  hidden: true
