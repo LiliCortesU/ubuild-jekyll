@@ -15,6 +15,7 @@ fields:
     template: text-column
     label: Column
     name: column
+  hidden: true
 - type: field_group
   name: col_2
   label: Column 2
@@ -31,3 +32,4 @@ fields:
     name: column
     label: Column
     template: text-column
+  hidden: true
